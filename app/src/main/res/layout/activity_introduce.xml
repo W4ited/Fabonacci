@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Introduce"
+    android:orientation="vertical"
+    android:background="@drawable/cloud"
+    >
+    <TextView
+        android:id="@+id/introduce"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="实验1:体验神奇的算法"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:layout_margin="10dp"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:paddingTop="20sp"
+        android:textColor="#000"
+        android:text="        本实验要求根据给定的正整数n计算第n个斐波那契数。
+        请选择自己最熟悉的编程语言实现这些算法来体验算法求解问题的神奇,下列基本要求必须完成:\n"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textColor="#000"
+        android:text="1、设计一个交互界面（例如菜单）供用户选择，如果可能，最好是一个图形化用户界面。"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textColor="#000"
+        android:text="2、对于相同的输入n值，利用五种方法(迭代﹑迭代改进·递归﹑显示公式﹑矩阵)计算第n个斐波那契数，并比较这五种方法的基本操作﹑基本操作次数﹑执行时间，以掌握对数﹑线性和指数增长率的极大差别。"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textColor="#000"
+        android:text="3、利用迭代算法寻找不超过编程环境能够支持的最大整数的斐波那契数是第几个斐波那契数，给出执行时间。(32位:231-1 forint,64位:263-1 for int)"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="4、利用递归算法寻找不超过编程环境能够支持的最大整数的斐波那契数是第几个斐波那契数，给出执行时间。"
+        android:textColor="#000"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textColor="#000"
+        android:text="5、根据第三步计算的最大的斐波那契数序号n，采用递归方式计算第n个斐波那契数,看其是否可以在1分钟内完成。"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textColor="#000"
+        android:text="6﹑利用递归算法计算你的计算机能够在30秒内计算出的最大斐波那契数是第几个，计算出下一个斐波那契数的时间是多少，利用迭代算法求解向样的问题。"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textColor="#000"
+        android:text="7、利用公式F(n)=[Φ^n/sqrt(5)]快速计算第n个斐波那契数，找出出现误差时的最小n值。"/>
+</LinearLayout>
